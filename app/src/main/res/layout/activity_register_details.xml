@@ -6,4 +6,101 @@
     android:layout_height="match_parent"
     tools:context=".RegisterDetailsActivity">
 
+    <EditText
+        android:id="@+id/registerDetailsActivityEditTextName"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerDetailsActivityTextViewInfo" />
+
+    <EditText
+        android:id="@+id/registerDetailsActivityEditTextEmail"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerDetailsActivityEditTextName" />
+
+    <EditText
+        android:id="@+id/registerDetailsActivityEditTextUsername"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerDetailsActivityEditTextEmail" />
+
+    <EditText
+        android:id="@+id/registerDetailsActivityEditTextPassword"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerDetailsActivityEditTextUsername" />
+
+
+    <Button
+        android:id="@+id/registerDetailsActivityButtonRegister"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="118dp"
+        android:text="@string/register_button_text"
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerDetailsActivityEditTextPassword" />
+
+    <TextView
+        android:id="@+id/registerDetailsActivityTextViewInfo"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:gravity="center"
+        android:lineSpacingExtra="20sp"
+        android:text="Please Check The Entered Information"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <Switch
+        android:id="@+id/registerDetailsActivitySwitchAccept"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="200dp"
+        android:text="  Accept"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerDetailsActivityEditTextPassword" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
