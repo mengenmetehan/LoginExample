@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoginExample</string>
+    <string name="login_button_text">Logın</string>
+    <string name="register_button_text">Regıster</string>
+    <string name="exit_button_text">Exıt</string>
+    <string name="exit_message_text">Bye!</string>
+</resources>
